@@ -3,7 +3,7 @@ import { Star, Quote } from 'lucide-react'
 const testimonials = [
   {
     name: 'Hasan Ahmad',
-    role: 'Siswa MTs Surya Buana Malang',
+    role: 'Siswa MTs di Malang',
     quote:
       'Saya dulu belum terlalu bisa pakai laptop, tapi setelah saya ikut bootcamp disini, saya terbantu karena akhirnya saya cukup paham pakainya sekaligus saya juga bisa belajar coding Python, mantap pokoknya!',
   },

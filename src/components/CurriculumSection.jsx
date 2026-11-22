@@ -1,4 +1,5 @@
 import { Download, BookOpen, Brain, Clock } from 'lucide-react'
+import { Toaster, toast } from '@yusufceng1z/ding-react'
 
 const bootcamps = [
   {
@@ -73,8 +74,21 @@ function CurriculumCard({ title, icon: Icon, items }) {
 }
 
 export default function CurriculumSection() {
+  // Silabus belum tersedia: tampilkan toast "coming soon"
+  const handleSyllabusClick = () => {
+    toast.info('Silabus segera hadir!', {
+      description: 'File PDF silabus lengkap masih kami siapkan. Pantau terus ya!',
+    })
+    toast.configure({
+      
+    })
+  }
+
   return (
     <section id="kurikulum" className="bg-gray-50 py-20 md:py-28">
+      {/* Cukup dipasang sekali. Jika nanti dipindah ke App/layout, hapus dari sini. */}
+      <Toaster position="top-center" theme= 'light' />
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-14 md:mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight mb-5">
@@ -102,13 +116,14 @@ export default function CurriculumSection() {
               jadwal lengkap ada di silabus.
             </span>
           </p>
-          <a
-            href="#"
+          <button
+            type="button"
+            onClick={handleSyllabusClick}
             className="inline-flex w-full md:w-auto items-center justify-center gap-2 rounded-full bg-brand-600 px-8 py-3.5 font-semibold text-white shadow-lg shadow-brand-600/25 transition-colors hover:bg-brand-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2"
           >
             <Download className="w-4 h-4" aria-hidden="true" />
             Unduh silabus lengkap (PDF)
-          </a>
+          </button>
         </div>
       </div>
     </section>

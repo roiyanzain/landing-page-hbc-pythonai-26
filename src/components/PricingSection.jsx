@@ -110,7 +110,7 @@ export default function PricingSection() {
             <FeatureList tone={active ? 'gray' : 'brand'} />
 
             <a
-              href="#daftar"
+              href="https://bit.ly/PendaftaranBootcamp2026SPIMalang"
               className={
                 'mt-auto flex w-full items-center justify-center gap-2 rounded-full px-6 py-4 font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 ' +
                 (active
@@ -228,7 +228,7 @@ export default function PricingSection() {
 
                 {active ? (
                   <a
-                    href="#daftar"
+                    href="https://bit.ly/PendaftaranBootcamp2026SPIMalang"
                     className="group relative mt-8 flex w-full items-center justify-center gap-2 overflow-hidden rounded-full bg-brand-600 px-6 py-4 text-base font-semibold text-white shadow-xl shadow-brand-600/30 transition-colors hover:bg-brand-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2"
                   >
                     {!reduceMotion && (

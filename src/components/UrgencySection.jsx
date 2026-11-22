@@ -111,7 +111,7 @@ export default function UrgencySection() {
             </div>
 
             <a
-              href="#daftar"
+              href="https://bit.ly/PendaftaranBootcamp2026SPIMalang"
               className="mt-6 flex w-full items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-lg font-semibold text-brand-700 shadow-xl shadow-brand-900/30 transition-colors hover:bg-brand-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-brand-600"
             >
               Daftar sebelum terlambat

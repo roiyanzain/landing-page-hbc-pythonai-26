@@ -65,12 +65,6 @@ export default function Footer() {
               Tempat belajar coding dan AI untuk pemula dengan metode hands-on
               dan mentor berpengalaman. Bangun portofolio nyata dengan kami.
             </p>
-            <a
-              href="#daftar"
-              className="mt-6 inline-flex items-center justify-center rounded-full bg-white px-6 py-3 font-semibold text-brand-700 transition-colors hover:bg-brand-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-brand-950"
-            >
-              Daftar sekarang
-            </a>
           </div>
 
           {/* Navigasi */}

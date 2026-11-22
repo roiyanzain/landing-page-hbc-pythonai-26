@@ -74,7 +74,7 @@ export default function TracksSection() {
                   </div>
                 </div>
                 <a
-                  href="#daftar"
+                  href="https://bit.ly/PendaftaranBootcamp2026SPIMalang"
                   className="flex w-full items-center justify-center gap-2 rounded-full bg-brand-600 px-8 py-3.5 font-semibold text-white shadow-lg shadow-brand-600/25 transition-colors hover:bg-brand-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2"
                 >
                   Daftar track ini

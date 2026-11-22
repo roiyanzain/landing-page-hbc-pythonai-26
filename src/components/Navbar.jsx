@@ -63,7 +63,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="#daftar"
+              href="https://bit.ly/PendaftaranBootcamp2026SPIMalang"
               className="rounded-full bg-brand-600 px-5 py-2.5 font-semibold text-white shadow-lg shadow-brand-600/25 transition-all hover:-translate-y-0.5 hover:bg-brand-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2"
             >
               Daftar Sekarang
@@ -73,7 +73,7 @@ export default function Navbar() {
           {/* Kontrol mobile: tombol daftar tetap terlihat */}
           <div className="md:hidden flex items-center gap-2">
             <a
-              href="#daftar"
+              href="https://bit.ly/PendaftaranBootcamp2026SPIMalang"
               className="rounded-full bg-brand-600 px-4 py-2 text-sm font-semibold text-white"
             >
               Daftar

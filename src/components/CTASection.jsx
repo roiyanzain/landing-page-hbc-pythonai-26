@@ -41,7 +41,7 @@ export default function CTASection() {
                 Kuota terbatas, daftar segera untuk menikmati harga early bird.
               </p>
               <a
-                href="#"
+                href="https://bit.ly/PendaftaranBootcamp2026SPIMalang"
                 className="flex w-full items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-lg font-semibold text-brand-700 shadow-xl shadow-black/20 transition-colors hover:bg-brand-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-brand-900"
               >
                 Daftar Holiday Bootcamp sekarang

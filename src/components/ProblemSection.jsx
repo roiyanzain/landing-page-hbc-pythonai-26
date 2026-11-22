@@ -78,7 +78,7 @@ export default function ProblemSection() {
             </p>
           </div>
           <a
-            href="#daftar"
+            href="https://bit.ly/PendaftaranBootcamp2026SPIMalang"
             className="shrink-0 inline-flex items-center justify-center rounded-xl bg-white px-6 py-3 font-semibold text-brand-700 hover:bg-brand-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-brand-600 transition-colors"
           >
             Daftar sekarang
